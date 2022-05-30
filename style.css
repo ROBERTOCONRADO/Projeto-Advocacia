@@ -430,6 +430,10 @@ p {
     background-color: darkgreen;
 }
 
+#e-mail {
+    width: 25px;
+}
+
 
 @media only screen and (max-width: 770px) {
     .menu-btn {
