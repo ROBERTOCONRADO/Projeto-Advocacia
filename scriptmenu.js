@@ -1,4 +1,4 @@
-const menuItens = document.querySelectorAll('.nav-links li a[href^="#"]');
+const menuItens = document.querySelectorAll('.nav-links');
 
 menuItens.forEach(item => {
     item.addEventListener('click', scrollToIdOnClick);
