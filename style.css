@@ -438,6 +438,10 @@ p {
     width: 48px;
 }
 
+.footer iframe {
+    
+}
+
 /*mobile*/
 
 @media only screen and (max-width: 770px) {
