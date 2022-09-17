@@ -20,7 +20,7 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 header {
     width: 100vw;
@@ -32,7 +32,8 @@ header {
     align-items: flex-end;
     justify-content: center;
     font-family: 'Cinzel', serifa;
-}.logo img {
+}
+.logo img {
     width: 150px;
     border-radius: 23px;
 }
@@ -40,22 +41,18 @@ header {
 body, html {
     overflow-x: hidden;
 }
-.navbar a {
+.nav-links a {
     color: rgb(141, 101, 0);
 }
-.navbar a:hover {
-    color: rgba(255, 255, 255, 0.93);
+.nav-links a:hover {
+    border-bottom: 3px solid rgb(141, 101, 0);
+    color: rgb(252, 233, 184);
 }
 
 a {
     text-decoration: none;
     color: rgb(141, 101, 0);
 }
-a:hover, a:focus {
-    color: #362f2f;
-    text-shadow: 1px 1px 1px black;
-}
-
 
 ul {
     list-style: none;
@@ -79,7 +76,6 @@ strong {
     font-family: 'Cinzel', serifa;
 }
 
-
 .line {
     width: 150px;
     height: 4px;
@@ -97,6 +93,7 @@ strong {
     color: rgb(210, 151, 0);
     background-color: rgba(165, 42, 42, 0.583);
 }
+
 h5 {
     color: rgb(210, 151, 0);
     font-size: 1.1rem;
@@ -134,7 +131,6 @@ h5 {
     }
 }
 
-
 .navbar {
     display: flex;
     position: absolute;
@@ -146,13 +142,11 @@ h5 {
     color: goldenrod;
 }
 
-
 .nav-links {
     display: flex;
     align-items: center;
     font-family: 'Cinzel', serifa;
 }
-
 
 .nav-links li {
     margin: 0 30px;
@@ -174,7 +168,6 @@ h5 {
     display: none;
 }
 
-
 section {
     width: 90%;
     margin: 50px auto;
@@ -183,7 +176,6 @@ section {
 .row .col1  {
     width: 49%;
 }
-
 
 .row .col2 {
     width: 49%;
@@ -214,12 +206,10 @@ section {
     cursor: pointer;
 }
 
-
 .title {
     text-align: center;
     color: goldenrod;
 }
-
 
 .row {
     display: flex;
@@ -240,7 +230,6 @@ section {
     margin: 30px 0;
 }
 
-
 h4 {
     font-size: 3vmin;
     color: rgb(69, 58, 0);
@@ -248,7 +237,6 @@ h4 {
     font-family: 'Cinzel', serifa;
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
-
 
 p {
     color: black;
@@ -286,8 +274,6 @@ p {
     align-items: center; 
 }
 
-
-
 .explore-content {
     width: 60%;
     padding: 50px;
@@ -297,13 +283,11 @@ p {
     flex-direction: column;
 }
 
-
 .explore-content h1 {
     font-size: 7vmin;
     font-family: 'Cinzel', serifa;
     text-shadow: 1px 1px 2px black;
 }
-
 
 .explore-content .line {
     margin-bottom: 50px; 
@@ -314,7 +298,6 @@ p {
     font-weight: bold;
     font-size: 1.9rem;
     text-align: center;
-    
     background-color: rgba(0, 0, 0, 0.672);
 }
 
@@ -329,11 +312,9 @@ p {
     width: 40%;
 }
 
-
 .image-col {
     width: 60%;
 }
-
 
 .tours .image-gallery {
     display: flex;
@@ -342,12 +323,10 @@ p {
     align-items: center;
 }
 
-
 .image-gallery img {
     max-width: 300px;
     margin: 10px;
 }
-
 
 .content-col h1 {
     font-size: 6vmin;
@@ -357,13 +336,11 @@ p {
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
-
 .content-col .line {
     margin-left: -1px;
     margin: auto;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.765);
 }
-
 
 .content-col p {
     padding: 0;
@@ -373,12 +350,10 @@ p {
     color: rgba(0, 0, 0, 0.857);
 }
 
-
 .content-col .ctn {
     margin-left: -100px;
     margin: auto;
 }
-
 
 .footer {
     width: 100%;
@@ -388,7 +363,6 @@ p {
     background-color: rgba(218, 165, 32, 0.853);
     text-align: center;
 }
-
 
 .footer p {
     color: black;
@@ -487,8 +461,7 @@ p {
     .logo {
         position: absolute;
         top: 30px;
-        left: 30px;
-        
+        left: 30px; 
     }
     .nav-links {
         flex-direction: column;
@@ -549,7 +522,6 @@ p {
     .footer {
         padding: 10px;
     }
-    
 }
 .localizacao-icon {
     margin: -4px auto;
