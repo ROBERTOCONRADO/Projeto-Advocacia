@@ -181,27 +181,29 @@ section {
     width: 49%;
 }
 
-.row .col1 li {
+.col1 li {
     font-family: 'Tiro Tamil', serifa;
     font-size: 1.2rem;
     margin-bottom: 12px;
     text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.35);
     font-weight: bold;
+    color:rgb(38, 28, 5);
 }
 
-.row .col2 li {
+.col2 li {
     font-family: 'Tiro Tamil', serifa;
     font-size: 1.2rem;
     margin-bottom: 10px;
     text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.548);
     font-weight: bold;
+    color: rgb(38, 28, 5);
 }
 
-.row .col2 li:hover {
+.col2 li:hover {
     color: #4F4F4F;
     cursor: pointer;
 }
-.row .col1 li:hover {
+.col1 li:hover {
     color: 	#4F4F4F;
     cursor: pointer;
 }
