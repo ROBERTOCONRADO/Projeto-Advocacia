@@ -110,6 +110,7 @@ h5 {
     border-radius: 30px;
     color: rgb(0, 0, 0);
     margin-bottom: 10px;
+    text-transform: uppercase;
     box-shadow: 0 0 15px;
     animation: animate 1.2s infinite linear;
     font-weight: bold;
@@ -331,8 +332,9 @@ p {
 }
 
 .content-col h1 {
-    font-size: 6vmin;
+    font-size: 5vmin;
     color: rgb(69, 58, 0);
+    margin-bottom: 10px;
     text-align: center;
     font-family: 'Cinzel', serifa;
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
@@ -340,7 +342,7 @@ p {
 
 .content-col .line {
     margin-left: -1px;
-    margin: auto;
+    margin: 10px auto;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.765);
 }
 
@@ -393,6 +395,7 @@ p {
     border: none;
     animation: go-back 0.5s infinite alternate;
     text-transform: uppercase;
+    cursor: pointer;
 }
 @keyframes go-back {
     from {
@@ -552,8 +555,7 @@ img:hover {
         flex-direction: column;
     }
     .content-col p {
-        padding: 0;
-        margin: 40px 10px;
+        padding: 20px;
         text-align: center;
         font-family: 'Oswald', sem serifa;
         color: rgba(0, 0, 0, 0.857);
